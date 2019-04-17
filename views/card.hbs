@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>{{title}}</title>
+</head>
+
+	{{> header}}
+
+<body>
+	<br>
+	<h1>Pick the number of cards</h1>
+    <form action="/displaycard">
+        Number: <input type="number" value="#">
+    	<input type="submit" value="Draw">
+	</form>
+    <form action="/">
+    	<input type="submit" value="Back">
+	</form>
+</body>
+
+	{{> footer}}
+</html>
